@@ -1,0 +1,19 @@
+[tool.poetry.scripts]
+plugs = "wyze_plugs:main"
+
+[tool.poetry]
+name = "wyze-plugs"
+version = "0.1.1"
+description = ""
+authors = ["Tom Moyer <tommoyer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wyze-sdk = "^2.2.0"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
